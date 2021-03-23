@@ -1,0 +1,35 @@
+1.-->3
+
+Metodologías tradicionales
+•Representación gráfica 
+•Fases 
+
+2.--->5
+
+
+--Metodologías tradicionales
+•Actividades por cada fase 
+•Ventajas
+•Desventajas 
+
+3.-->2
+
+
+--Metodologías tradicionales
+•Cuadros comparativos
+Metodologías Agiles
+•Representación gráfica 
+
+4.-->1
+
+--Metodologías Agiles
+•Fases 
+•Actividades por cada fase 
+•Ventajas
+
+5.-->4
+
+--Metodologías Agiles
+•Desventajas 
+•Software que gestiona las fases 
+•Cuadros comparativos

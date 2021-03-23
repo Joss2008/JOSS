@@ -1,0 +1,1929 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprintometer>
+  <messages>
+    <message>
+       <original>Name</original>
+       <translated>Nombre</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Initial Estimation (%1%):</original>
+      <translated>Estimacion Inicial (%1%):</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>General</original>
+      <translated>General</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Current Estimation (%1%):</original>
+      <translated>Estimacion Actual (%1%):</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task No:</original>
+      <translated>Tarea No:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Name:</original>
+      <translated>Nombre:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Description:</original>
+      <translated>Descripcion:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Work Type</original>
+      <translated>Tipo de Trabajo</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Change Request</original>
+      <translated>Cambiar Request</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Issued:</original>
+      <translated>Emitido:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Assigned to:</original>
+      <translated>Asignado a:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task name cannot be empty.</original>
+      <translated>El nombre de la tarea no puede estar vacio.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task name cannot consist of whitespaces.</original>
+      <translated>Название задачи не может содержать одни пробелы.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task name cannot contain more than %1% characters.</original>
+      <translated>El nombre de la tarea no puede contener mas de %1% caracteres.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation %1% does not match format XXX.XX</original>
+      <translated>La estimacion %1% no concuerda con el formato XXX.XX</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation '%1%' is not a valid float number.</original>
+      <translated>La estimacion '%1%' no es un numero flotante valido.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation cannot be negative.</original>
+      <translated>La estimacion no puede ser negativa.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation cannot be greater than %1%.</original>
+      <translated>La estimacion no puede ser mas grande que %1%.</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Date:</original>
+      <translated>Fecha:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Work day:</original>
+      <translated>Dia de Trabajo:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Done %:</original>
+      <translated>Hecho %:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Done/delta:</original>
+      <translated>Hecho/delta:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Done today/to do:</original>
+      <translated>Hecho hoy/para hacer:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Closed:</original>
+      <translated>Closed:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID:</original>
+      <translated>ID de la historia:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Priority:</original>
+      <translated>Prioridad:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Name:</original>
+      <translated>Nombre:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Assign ALL coding:</original>
+      <translated>Asignar Todo el codificado:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Assign ALL testing:</original>
+      <translated>Asignar todas las pruebas:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Description (RTF):</original>
+      <translated>Descripcion (RTF):</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>General</original>
+      <translated>General</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID cannot be empty.</original>
+      <translated>ID de la Historia no puede estar vacio.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID cannot consist of whitespaces.</original>
+      <translated>ID de la Historia no puede ser espacios en blanco.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID cannot exceed %1% characters.</original>
+      <translated>ID de la Historia no puede sobrepasar %1% caracteres.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID '%1%' is not unique.</original>
+      <translated>ID de la Historia '%1%' no es unico.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story Name cannot be empty.</original>
+      <translated>Nombre de la Historia no puede estar vacio.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story name cannot consist of whitespaces.</original>
+      <translated>Nombre de la historia no puede ser espacios en blanco.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story Name cannot exceed %1% characters.</original>
+      <translated>Nombre de la historia no puede sobrepasar %1% caracteres.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>User Story priority '%1%' is not numeric.</original>
+      <translated>User Story priority '%1%' is not numeric.</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Initial</original>
+      <translated>Inicial</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Current</original>
+      <translated>Actual</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Done</original>
+      <translated>Hecho</translated>
+    </message>
+    <message context="StatusTable">
+      <original>To do</original>
+      <translated>Para hacer</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Estimate</original>
+      <translated>Estimado</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Coding</original>
+      <translated>Codificar</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Testing</original>
+      <translated>Probar</translated>
+    </message>
+    <message context="StatusTable">
+      <original>All</original>
+      <translated>Todo/Toda</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tasks</original>
+      <translated>Tareas</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Estimation\Date:</original>
+      <translated>Estimacion\Fecha:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Done  %:</original>
+      <translated>Hecho  %:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Coded  %:</original>
+      <translated>Codificado  %:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tested  %:</original>
+      <translated>Probado  %:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Done/delta:</original>
+      <translated>Hecho/delta:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Done today/to do:</original>
+      <translated>Hecho hoy/para hacer:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Coded/delta:</original>
+      <translated>Codificado/разница:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Coded today/to do:</original>
+      <translated>Codificado hoy/para hacer:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tested/delta:</original>
+      <translated>Probado/delta:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tested today/to do:</original>
+      <translated>Probado hoy/para hacer:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Task#</original>
+      <translated>№ tarea</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Task Name</original>
+      <translated>Nombre tarea</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>General</original>
+      <translated>General</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Name:</original>
+      <translated>Nombre:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Last Reported Date:</original>
+      <translated>Ultima fecha reportada:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Start Date:</original>
+      <translated>Fecha de Inicio:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>End Date:</original>
+      <translated>Fecha Final:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>- Sprint Dates -</original>
+      <translated>- Fechas del Sprint -</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>- No Work Dates -</original>
+      <translated>- Fechas de No trabajo -</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>- Budget Dates Out Of Sprint -</original>
+      <translated>- Fechas presupuestadas fuera del Sprint -</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Schedule</original>
+      <translated>Horario</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Select Next Reported Date</original>
+      <translated>Seleccionar proxima fecha reportada</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Add...</original>
+      <translated>Agregar...</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Delete</original>
+      <translated>Eliminar</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Stories</original>
+      <translated>Historias</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Estimation\Date:</original>
+      <translated>Estimacion\Fecha:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Done %:</original>
+      <translated>Hecho %:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Coded %:</original>
+      <translated>Codificado %:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Tested %:</original>
+      <translated>Probado %:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Done:</original>
+      <translated>Hecho:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Done today/to do:</original>
+      <translated>Hecho hoy/Para hacer:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Coded:</original>
+      <translated>Codificado:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Coded today/to do:</original>
+      <translated>Codificado hoy/para hacer:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Tested:</original>
+      <translated>Probado:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Tested today/to do:</original>
+      <translated>Probado hoy/Para hacer:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Story ID, Task#</original>
+      <translated>№ Historia, № tarea</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Story Name, Task Name</original>
+      <translated>Nombre Historia, Nombre Tarea</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Track Chart</original>
+      <translated>Grafica de Seguimiento</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Work Type:</original>
+      <translated>Tipo de Trabajo:</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Print Chart</original>
+      <translated>Imprimir Grafica</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Iteration track upon work left/complete</original>
+      <translated>Seguimiento a la iteracion con respecto al trabajo faltante/completado</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Sprint track upon work left/complete</original>
+      <translated>Seguimiento al Sprint track con respecto al trabajo faltante/completado</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Work Days</original>
+      <translated>Dias de Trabajo</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Track upon work left</original>
+      <translated>Seguimiento sobre trabajo faltante</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Track upon work complete</original>
+      <translated>Seguimiento sobre trabajo completado</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Instant Team Velocity</original>
+      <translated>Velocidad Instantanea del Equipo</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>95% extrapolation sector</original>
+      <translated>Sector de Extrapolacion 95%</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Work Type: </original>
+      <translated>Tipo de Trabajo: </translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Work Type:</original>
+      <translated>Tipo de Trabajo:</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Percentage</original>
+      <translated>Porcentaje</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>3D Burn Down</original>
+      <translated>3D Burn Down</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Print Chart</original>
+      <translated>Imprimir Grafica</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Scope Chart</original>
+      <translated>Scope Grafica</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>left To Do (%1%)</original>
+      <translated>faltante por hacer</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Work Days</original>
+      <translated>Dias de trabajo</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Scope of changes</original>
+      <translated>Scope of changes</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Overall scope</original>
+      <translated>Overall scope</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>95% extrapolation sector</original>
+      <translated>Sector de Extrapolacion 95%</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Initial Estimation</original>
+      <translated>Estimacion Inicial</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Add Resource...</original>
+      <translated>Agregar recurso...</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Delete Resource</original>
+      <translated>Eliminar Recurso</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Resources &amp;&amp; Budget</original>
+      <translated>Recursos &amp;&amp; Presupuesto</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Add Resource</original>
+      <translated>Agregar Recurso</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Name:</original>
+      <translated>Nombre:</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Type:</original>
+      <translated>Tipo:</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Hourly Rate:</original>
+      <translated>Precio por hora:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Man Days value '%1%' for day %2% has a wrong format</original>
+      <translated>El valor hombre dia '%1%' por dia %2% tiene formato equivocado</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Man Days value for day %1% is negative</original>
+      <translated>Valor hombre dias por dia %1% es negativo</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Man Days value for day %1% is greater than %2%</original>
+      <translated>Valor hombre dias por dia %1% es mas grande que %2%</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Resource: '%1%'</original>
+      <translated>Recurso: '%1%'</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Error: %1%</original>
+      <translated>Error: %1%</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Wrong format for Hourly Rate</original>
+      <translated>El formato de el precio por hora es equivocado</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Hourly Rate should not be greater than %1%</original>
+      <translated>Precio por hora no deberia se mayor que %1%</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Date:</original>
+      <translated>Fecha:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Work day:</original>
+      <translated>Dia de trabajo:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Sum Budget:</original>
+      <translated>Sum presupuesto:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Hourly Rate\Daily Budget:</original>
+      <translated>Precio por hora\Presupuesto diario:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Resource Name</original>
+      <translated>Nombre Recurso</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Resource Type</original>
+      <translated>Tipo Recurso</translated>
+    </message>
+    <message context="IterationStoryReadiness">
+      <original>Story Readiness Report</original>
+      <translated>Informe de reporte de historia</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Story ID</original>
+      <translated>ID Historia</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Story Name</original>
+      <translated>Nombre Historia</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Coded</original>
+      <translated>Codificado</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Tested</original>
+      <translated>Probado</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Done</original>
+      <translated>Hecho</translated>
+    </message>
+    <message context="IterationSummaryReport">
+      <original>Summary Report</original>
+      <translated>Reporte resumido</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Implementation</original>
+      <translated>Implementacion</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Coding</original>
+      <translated>Codificando</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Testing</original>
+      <translated>Probando</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Work days left:</original>
+      <translated>Dias de trabajo faltantes:</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Total done for now (%1%):</original>
+      <translated>Total hecho por ahora (%1%):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Done during the last day (%1%):</original>
+      <translated>Hecho durante el ultimo dia (%1%):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Overall done %:</original>
+      <translated>Hecho en general%:</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Scope to do daily to be on track (%1%):</original>
+      <translated>Scope to do daily to be on track (%1%):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Average Load Factor (if resources with types defined):</original>
+      <translated>Factor de carga promedio (si los recursos con tipo estan definidos):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Average Team Velocity:</original>
+      <translated>Velocidad promedio del equipo:</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Predicted deviation from deadline (days):</original>
+      <translated>Predicted deviation from deadline (days):</translated>
+    </message>
+    <message context="IterationWorkloadReport">
+      <original>Workload Report</original>
+      <translated>Workload Report</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Name</original>
+      <translated>Nombre</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Assigned</original>
+      <translated>Asignado</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Done</original>
+      <translated>Hecho</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Average daily done</original>
+      <translated>Promedio hecho diariamente</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Todo</original>
+      <translated>a hacer</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Average daily todo</original>
+      <translated>Promedio diario para hacer</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Done during last day</original>
+      <translated>Hecho durante el ultimo dia</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Name:</original>
+      <translated>Nombre:</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Agile Project Type:</original>
+      <translated>Tipo de Proyecto agil:</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Estimation Units:</original>
+      <translated>Unidades de estimacion:</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Work Types</original>
+      <translated>Tipo de trabajo</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Add</original>
+      <translated>Agregar</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Delete</original>
+      <translated>Eliminar</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>General</original>
+      <translated>General</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type</original>
+      <translated>Tipo de Trabajo</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Task assignable</original>
+      <translated>Tarea Asignable</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type cannot be empty</original>
+      <translated>Tipo de trabajo no puede estar vacio</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type '%1%' is not unique</original>
+      <translated>Tipo de trabajo'%1%' no es unico</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type '%1%' cannot be unchecked as it is used in sprint '%2%', story '%3%', task '%4%'</original>
+      <translated>Tipo de trabajo '%1%' no puede estar sin chequear ya que es usado en el sprint '%2%', historia '%3%', tarea '%4%'</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type '%1%' is a predefined one and therefore cannot be deleted or modified</original>
+      <translated>Tipo de trabajo '%1%' esta predefinino, por lo tanto no se puede eliminar o modificar</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Cannot delete Work Type '%1%' as it is used in iteration '%2%', story '%3%', task '%4%'</original>
+      <translated>No se puede eliminar el tipo de trabajo '%1%' porque es usado en la iteracion '%2%', historia '%3%', tarea '%4%'</translated>
+    </message>
+    <message context="ProjectResources">
+      <original>Resources &amp;&amp; Budget</original>
+      <translated>Recursos &amp;&amp; Presupuesto</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Iteration Name</original>
+      <translated>Nombre iteracion</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Sprint Name</original>
+      <translated>Nombre Sprint</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Start Date</original>
+      <translated>Fecha de Inicio</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>End Date</original>
+      <translated>Fecha Final</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Budget Days</original>
+      <translated>Dias presupuesto</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Man Days</original>
+      <translated>Hombre Dias</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Budget</original>
+      <translated>Presupuesto</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Totals:</original>
+      <translated>Totales:</translated>
+    </message>
+    <message context="ProjectServerUsers">
+      <original>Server Project Users</original>
+      <translated>Usuarios del Server Project</translated>
+    </message>
+    <message context="ProjectServerUsers">
+      <original>Add User...</original>
+      <translated>Agregar Usuario...</translated>
+    </message>
+    <message context="ProjectServerUsers">
+      <original>Remove User</original>
+      <translated>Borrar Usuario</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;New</original>
+      <translated>&amp;Nuevo</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Create a new agile project</original>
+      <translated>Crear un nuevo proyecto agil</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Open...</original>
+      <translated>&amp;Abrir...</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Open</original>
+      <translated>&amp;Abrir</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open an existing document</original>
+      <translated>Abrir documento existente</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open &amp;From Server...</original>
+      <translated>Abrir &amp;Desde Servidor...</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open &amp;From Server</original>
+      <translated>Abrir &amp;Desde Servidor</translated>
+    </message>
+    <message context="ToolbarServer">
+      <original>Open</original>
+      <translated>Abrir</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open document from Server</original>
+      <translated>Abrir documento desde Servidor</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Close</original>
+      <translated>&amp;Cerrar</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Close the active document</original>
+      <translated>Cerrar el documento activo</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Save</original>
+      <translated>&amp;Guardar</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save the active document</original>
+      <translated>Guardar el documento activo</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save &amp;As...</original>
+      <translated>Guardar &amp;Como...</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save &amp;As</original>
+      <translated>Guardar &amp;Como</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save the active document into a local file with a new name</original>
+      <translated>Guardar el documento actio dentro de archivo local con un nuevo nombre</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save On S&amp;erver As...</original>
+      <translated>Guardar en servidor como...</translated>
+    </message>
+    <message context="ToolbarServer">
+      <original>Save As</original>
+      <translated>Guardar Como</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save project on Sprintometer Server with a new name</original>
+      <translated>Guardar proyecto en servidor Sprintometer con un nuevo nombre</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Recent Documents</original>
+      <translated>Documentos recientes</translated>
+    </message>
+    <message context="Toolbar">
+      <original>E&amp;xit</original>
+      <translated>Salir</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Quit the application; prompts to save documents</original>
+      <translated>Salir de la aplicacion; indicaciones para guardar documentos </translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Home</original>
+      <translated>Inicio</translated>
+    </message>
+    <message context="Toolbar">
+      <original>General</original>
+      <translated>General</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Go to Upper Node</original>
+      <translated>Ir a nodo superior</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Select upper node in left pane tree</original>
+      <translated>Seleccionar nodo superior en el panel del arbol izquierdo</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Undo</original>
+      <translated>Deshacer</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Undo the latest edition</original>
+      <translated>Deshacer la ultima edicion</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Redo</original>
+      <translated>Rehacer</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Redo the latest edition</original>
+      <translated>Rehacer la ultima edicion</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Export</original>
+      <translated>Exportar</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Export to Microsoft Excel grid or chart in the right pane</original>
+      <translated>Exportar a tabla o grafica de Microsoft Excel en el panel derecho</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Export grid or chart to OpenDocument Spreadsheet</original>
+      <translated>Exportar tabla o grafica a OpenDocument Spreadsheet</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Print App Window</original>
+      <translated>Imprimir ventana de la App</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Print current content of application window</original>
+      <translated>Imprimir contenido actual de la ventana de la aplicacion</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Local File</original>
+      <translated>Archivo Local</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Remote Server</original>
+      <translated>Servidor Remoto</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Settings &amp;&amp; Registration</original>
+      <translated>Configuracion &amp;&amp; Registro</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Sprintometer Server settings and registration of new users</original>
+      <translated>Configuracion y registro de nuevos usuarios en Servidor Sprintometer</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Budget Info</original>
+      <translated>Presupuesto Info</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Set Password</original>
+      <translated>Poner Contrasena</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Set password for 'Resources &amp; Budget' tab</original>
+      <translated>Poner contrasena para el tab 'Recursos &amp; Presupuesto'</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Remove Password</original>
+      <translated>Borrar Contrasena</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Remove password for 'Resources &amp; Budget' tab</original>
+      <translated>Borrar contrasena para el tab de 'Recursos &amp; Presupuesto'</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Work Type:</original>
+      <translated>Tipo de Trabajo:</translated>
+    </message>
+    <message context="Toolbar">
+      <original>In 'Tasks' and 'Stories' tabs filter data by the selected work type</original>
+      <translated>En la pestana de filtrar datos de tareas e historias del tipo de trabajo seleccionado</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Work Status:</original>
+      <translated>Estado del Trabajo:</translated>
+    </message>
+    <message context="Toolbar">
+      <original>In 'Tasks' and 'Stories' tabs filter data by the selected work status</original>
+      <translated>En la pestana de filtrar datos de tareas e historias del estado de trabajo seleccionado</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Spreadsheet Filters</original>
+      <translated>Filtros de la hoja de calculo</translated>
+    </message>
+    <message context="Toolbar">
+      <original>View</original>
+      <translated>Ver</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Language:</original>
+      <translated>Idioma:</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Languages are defined in '*.XML' files. Clone XML file and translate GUI to a new language!</original>
+      <translated>Los idiomas estan definidos en archivos '*.XML'. Copia el XML y traduce la interfaz para un nuevo lenguaje!</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Window</original>
+      <translated>Ventana</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Placement</original>
+      <translated>Ubicacion</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Cascade</original>
+      <translated>Cascada</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Arrange windows so they overlap</original>
+      <translated>Agrupar ventanas para que se superpongan</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Tile</original>
+      <translated>Vertical</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Arrange windows as non-overlapping tiles</original>
+      <translated>Agrupar ventanas verticalmente sun superposicion</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Split</original>
+      <translated>Dividir</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Switch on split mode to adjust windows positions</original>
+      <translated>Cambiar a modo dividido para ajustar la posicion de las ventanas</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Show Last Day only</original>
+      <translated>Mostrar solo ultimo dia</translated>
+    </message>
+    <message context="Toolbar">
+      <original>In all spreadsheets show column for the last reported day only</original>
+      <translated>En todas las hojas de calculo mostrar solamente la columna de el reporte del ultimo dia</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>About Sprintometer Pro</original>
+      <translated>Acerca de Sprintometer Pro</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>About Sprintometer</original>
+      <translated>Acerca de Sprintometer</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>Check for updates automatically</original>
+      <translated>Buscar actualizaciones automaticamente</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>Download the latest version</original>
+      <translated>Descargar la ultima version</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>Question or Note</original>
+      <translated>Pregunta o nota</translated>
+    </message>
+    <message context="AddDateDialog">
+      <original>Add Not Tracked Budget Date</original>
+      <translated>Agregar una fecha de no seguimiento de presupuesto</translated>
+    </message>
+    <message context="NewVersionDialog">
+      <original>New Version Available</original>
+      <translated>Nueva version disponible</translated>
+    </message>
+    <message context="NewVersionDialog">
+      <original>New version of Sprintometer is available for download!</original>
+      <translated>Nueva version de Sprintometer disponible para descargar!</translated>
+    </message>
+    <message context="NewVersionDialog">
+      <original>You can download the latest version from the product home page:</original>
+      <translated>Puedes descargar la ultima version de de la pagina principal del producto:</translated>
+    </message>
+    <message context="OpenFromServerDialog">
+      <original>Open Document From Server</original>
+      <translated>Abrir documento desde el Servidor</translated>
+    </message>
+    <message context="OpenFromServerDialog">
+      <original>Available documents:</original>
+      <translated>Documentos Disponibles:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Server Configuration</original>
+      <translated>Configuracion del Servidor</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Security</original>
+      <translated>Seguridad</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Connection</original>
+      <translated>Соnexion</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Please enter your login and password for Sprintometer server.</original>
+      <translated>Por favor ingresa tu usuario y contrasena para el servidor Sprintometer.</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Login:</original>
+      <translated>Usuario:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Password:</original>
+      <translated>Contrasena:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Remember login and password on this PC</original>
+      <translated>Recordar usuario y contrasena en este PC</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>If you do not have a login and password for Sprintometer server, you may register as a new user.</original>
+      <translated>Si no tienes usuario y contrasena, debes registrarte como nuevo usuario.</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Register New User...</original>
+      <translated>Registrar nuevo usuario...</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Change User Password...</original>
+      <translated>Cambiar Contrasena del Usuario...</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Sprintometer Server URL:</original>
+      <translated>URL del Servidor Sprintometer:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Use Proxy Server</original>
+      <translated>Usar Servidor Proxy</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Proxy Type:</original>
+      <translated>Тipo de Proxy:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Proxy Address:</original>
+      <translated>Direccion del Proxy:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Default</original>
+      <translated>Por defecto</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Port:</original>
+      <translated>Puerto:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Proxy Requires Authorization</original>
+      <translated>El proxy requiere autorizacion</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Login:</original>
+      <translated>Usuario:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Password:</original>
+      <translated>Contrasena:</translated>
+    </message>
+    <message context="PasswordDialog">
+      <original>Password Check</original>
+      <translated>Verificar Contrasena</translated>
+    </message>
+    <message context="PasswordDialog">
+      <original>Password:</original>
+      <translated>Contrasena:</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>Project Type</original>
+      <translated>Tipo de Proyecto</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>Please select Type for new agile project</original>
+      <translated>Por facor seleccione el tipo del nuevo proyecto agil</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>PROJECT TYPE CANNOT BE CHANGED AFTER PROJECT CREATION</original>
+      <translated>EL TIPO DE PROYECTO NO PUEDE SER CAMBIADO DESPUES DE SU CREACION</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>Agile Project Type:</original>
+      <translated>Tipo de Proyecto Agil:</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Register New Server User</original>
+      <translated>Registrar nuevo Usuario del Servidor</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Login:</original>
+      <translated>Usuario:</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Name (optional):</original>
+      <translated>Nombre (opcional):</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Email:</original>
+      <translated>Email:</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>NOTE: Password for accessing Sprintometer server will be emailed to this address. Please make sure you enter a valid email address.</original>
+      <translated>NOTA: La contrasena para acceder al servidor Sprintometer sera enviada a este correo. Por favor verifique que ingreso una direccion de correo valida</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Register</original>
+      <translated>Registrar</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>Rename Server Document</original>
+      <translated>Renombrar Documento del Servidor</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>You are going to change document name on server. This will change the name by which the document is listed in 'Open Document From Server' dialog. To change project name inside the document, use General tab on Project level.</original>
+      <translated>Vas a cambiar el nombre del documento en el servidor. Esto cambiara el nombre con el cual el documento es listado en 'Abrir documento desde el Servidor'. Para cmabiar el nombre del proyecto dentro del documento, use la pestana General en el nivel de Proyecto.</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>Old document name:</original>
+      <translated>Antiguo nombre del documento:</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>New document name:</original>
+      <translated>Nuevo nombre del documento:</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>Rename</original>
+      <translated>Renombrar</translated>
+    </message>
+    <message context="ServerSaveNewDialog">
+      <original>Save Project As On Server</original>
+      <translated>Guardar Proyecto Como, En Servidor</translated>
+    </message>
+    <message context="ServerSaveNewDialog">
+      <original>Document name on server:</original>
+      <translated>Nombre del Documento En Servidor:</translated>
+    </message>
+    <message context="ServerUserAddDialog">
+      <original>Add Server User</original>
+      <translated>Agregar Usuario en Servidor</translated>
+    </message>
+    <message context="ServerUserAddDialog">
+      <original>User Login:</original>
+      <translated>Nombre Usuario(Login):</translated>
+    </message>
+    <message context="SetPasswordDialog">
+      <original>Set Password</original>
+      <translated>Poner Contrasena</translated>
+    </message>
+    <message context="SetPasswordDialog">
+      <original>Type Password:</original>
+      <translated>Escribir Contrasena:</translated>
+    </message>
+    <message context="SetPasswordDialog">
+      <original>Repeat Password:</original>
+      <translated>Repetir Contrasena:</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>Change Password</original>
+      <translated>Cambiar Contrasena</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>Old Password:</original>
+      <translated>Antigua Contrasena:</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>New Password:</original>
+      <translated>Nueva Contrasena:</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>Repeat Password:</original>
+      <translated>Repetir Contrasena:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Change Server User Password</original>
+      <translated>Cambiar contrasena de usuario en servidor</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Login:</original>
+      <translated>Usuario:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Old password:</original>
+      <translated>Antigua Contrasena:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>New password:</original>
+      <translated>Nueva Contrasena:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Re-enter new password:</original>
+      <translated>Repetir nueva contrasena:</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Excel Export</original>
+      <translated>Exportar Excel</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>ODS Export</original>
+      <translated>Exportar ODS</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Please do not use Excel application while export is in progress.</original>
+      <translated>Por favor no usar Excel mientrar se esta exportando.</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Please wait while OpenDocument Spreadsheet is being created.</original>
+      <translated>Por favor esperar mientras la hoja de calculo en OpenDocument es creada.</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Export progress:</original>
+      <translated>Exportar Progreso:</translated>
+    </message>
+    <message context="Common">
+      <original>Ideal Hours</original>
+      <translated>Horas Ideales</translated>
+    </message>
+    <message context="Common">
+      <original>id.h.</original>
+      <translated>id.h.</translated>
+    </message>
+    <message context="Common">
+      <original>Normal Hours</original>
+      <translated>Horas Normales</translated>
+    </message>
+    <message context="Common">
+      <original>hours</original>
+      <translated>horas</translated>
+    </message>
+    <message context="Common">
+      <original>Func. Points</original>
+      <translated>Puntos de Func.</translated>
+    </message>
+    <message context="Common">
+      <original>func.p.</original>
+      <translated>func.p.</translated>
+    </message>
+    <message context="Common">
+      <original>Days</original>
+      <translated>Dias</translated>
+    </message>
+    <message context="Common">
+      <original>days</original>
+      <translated>dias</translated>
+    </message>
+    <message context="Common">
+      <original>Units</original>
+      <translated>Unidades</translated>
+    </message>
+    <message context="Common">
+      <original>units</original>
+      <translated>unidades</translated>
+    </message>
+    <message context="Common">
+      <original>Story Points</original>
+      <translated>Puntos de Historia</translated>
+    </message>
+    <message context="Common">
+      <original>st.p.</original>
+      <translated>his.p.</translated>
+    </message>
+    <message context="Common">
+      <original>----ALL----</original>
+      <translated>----TODO----</translated>
+    </message>
+    <message context="Common">
+      <original>To Do</original>
+      <translated>Para Hacer</translated>
+    </message>
+    <message context="Common">
+      <original>Done</original>
+      <translated>Hecho</translated>
+    </message>
+    <message context="Common">
+      <original>Management</original>
+      <translated>Administracion/Direccion</translated>
+    </message>
+    <message context="Common">
+      <original>Testing</original>
+      <translated>Pruebas</translated>
+    </message>
+    <message context="Common">
+      <original>Coding</original>
+      <translated>Codificacion</translated>
+    </message>
+    <message context="Common">
+      <original>Last Day only</original>
+      <translated>Solo Ultimo Dia</translated>
+    </message>
+    <message context="Common">
+      <original>Stories</original>
+      <translated>Historias</translated>
+    </message>
+    <message context="Common">
+      <original>Work Type: </original>
+      <translated>Tipo de Trabajo: </translated>
+    </message>
+    <message context="Common">
+      <original>Work Type: </original>
+      <translated>Tipo de Trabajo: </translated>
+    </message>
+    <message context="Common">
+      <original>Work Status: </original>
+      <translated>Estado de Trabajo: </translated>
+    </message>
+    <message context="Common">
+      <original>Tasks</original>
+      <translated>Tareas</translated>
+    </message>
+    <message context="Common">
+      <original>Undo</original>
+      <translated>Deshacer</translated>
+    </message>
+    <message context="Common">
+      <original>Unchanged</original>
+      <translated>Sin Alterar</translated>
+    </message>
+    <message context="Common">
+      <original>Apply</original>
+      <translated>Aplicar</translated>
+    </message>
+    <message context="Common">
+      <original>Validation!</original>
+      <translated>Validacion!</translated>
+    </message>
+    <message context="MessageBox">
+      <original>No graph type to display</original>
+      <translated>Ningun tipo de grafico para mostrar</translated>
+    </message>
+    <message context="MessageBox">
+      <original>No graph type to print</original>
+      <translated>Ningun tipo de grafico para imprimir</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot find default printer</original>
+      <translated>No se puede encontrar impresora por defecto</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Default printer cannot support raster operations</original>
+      <translated>La impresora por defecto no soporta operaciones raster</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot get device context for window to be printed</original>
+      <translated>No se puede obtener contexto del dispositivo de la ventana para imprimir</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot create compatible bitmap for window to be printed</original>
+      <translated>No se puede crear bitmap compatible para la ventana cuando se va a imprimir</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter user login.</original>
+      <translated>Por favor ingresar usuario.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter the old (current) password.</original>
+      <translated>Por favor ingrease la antigua (actual) contrasena.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter the new password.</original>
+      <translated>Ingrese la nueva contrasena.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please re-enter the new password.</original>
+      <translated>Repita la nueva contrasena.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password should not be equal to old password.</original>
+      <translated>La nueva contrasena no puede ser igual que la anterior.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New passwords do not match.</original>
+      <translated>No concuerda la nueva contrasena.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password must contain at least 6 characters.</original>
+      <translated>Nueva contrasena debe tener por lo menos 6 digitos.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password should not be equal to login name.</original>
+      <translated>Nueva contrasena no puede ser igual al nombre del usuario.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User password has been changed successfully.</original>
+      <translated>La contrasena fue cambiada con exito.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>'Last Reported Date' in 'General' tab does not match today's date.
+                Probably you forgot to increment it before time reporting.</original>
+      <translated>'Ultima fecha de reporte' en la pestana 'General' no concuerda con la fecha de hoy.
+               Probablemente olvido incrementarla antes de reportarla.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot overwrite destination file (probably the file is read-only).</original>
+      <translated>No se puede re escribir el archivo de destino (probablemente esta siendo usado).</translated>
+    </message>
+    <message context="MessageBox">
+      <original>File has been saved successfully. Do you want to open it now?</original>
+      <translated>El archivo fue guardado. Quiere abrirlo ahora?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>OLE initialization failed. Make sure that the OLE libraries are the correct version</original>
+      <translated>OLE initialization failed. Make sure that the OLE libraries are the correct version</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unable to save grid list</original>
+      <translated>No se puede grabar la lista de la tabla</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unable to load grid data</original>
+      <translated>No se puede cargar los datos de la tabla</translated>
+    </message>
+    <message context="MessageBox">
+      <original>To be applied language change requires restart of Sprintometer application!</original>
+      <translated>Para aplicar el cambio de lenguaje debes reinicioar Sprintometer!</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please select a document to open.</original>
+      <translated>Por favor selecciona un documento para abrir.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Are you sure you want to delete document '%1%' on server?</original>
+      <translated>Estas seguro que quieres eliminar el documento '%1%' en el servidor?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document '%1%' has been deleted.</original>
+      <translated>El documento '%1%' ha sido eliminado.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Server document renamed successfully.</original>
+      <translated>El documento en el servidor fue renombrado satisfactoriamente.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please select a user you want to remove.</original>
+      <translated>Por favor selecciona el usuario que quieres remover.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter login for new user.</original>
+      <translated>Por favor ingresa el login del nuevo usuario.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter email address.</original>
+      <translated>Por favor ingresa la direccion del correo</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Are you sure email address is valid?
+                User password will be sent to this address.</original>
+      <translated>Estas seguro que la direccion de correo es valida?
+                  La constrasena sera enviada a este correo.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' has been registered on Sprintometer server.
+                User password has been emailed to '%2%'.</original>
+      <translated> El usuario '%1%' ha sido registrado en el servidor Sprintometer.
+                  La contrasena ha sido enviada a '%2%'.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter document name.</original>
+      <translated>Por favor ingrese el nombre del documento.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document with this name already exists. Please enter new name.</original>
+      <translated>Ya existe un documento con este nombre. Por favor ingrese un nuevo nombre</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter document name.</original>
+      <translated>Por favor ingresa el nombre del documento.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You can't start more than one copy of Sprintometer application.</original>
+      <translated>No puedes iniciar mas de una copiar de la aplicacion Sprintometer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read application options file</original>
+      <translated>No se puede leer el archivo de opciones de la aplicacion</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read data from server</original>
+      <translated>No se puede leer los datos desde el servidor</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Invalid Sprintometer file</original>
+      <translated>Archivo Sprintometer invalido</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This data file needs a newer version of Sprintometer</original>
+      <translated>Este archivo necesita una nueva version de Sprintometer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Error reading XML data file</original>
+      <translated>Error al leer el archivo XML</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read data from file</original>
+      <translated>No se puede leer los datos del archivo</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot open file '%1%'</original>
+      <translated>No se puede abrir el archivo '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This project is currently stored using Sprintometer 1.0 format.
+                It is recommended to convert this project to Sprintometer 2.0 format.
+                After this conversion all users working with this project will have to use Sprintometer 2.0 or later.
+                Do you want to convert the project to Sprintometer 2.0 format?</original>
+      <translated>Este proyecto esta guardado usando Sprintometer 1.0.
+                  Se recomienda convertirlo a un formato Sprintometer 2.0.
+                  Despues de esta conversion todos los usuarios deberar usar Sprintometer 2.0 o mas arriba.
+                  Desea convertir el proyecto a formato Sprintometer 2.0?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Error saving document.</original>
+      <translated>Error al guardar el documento.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot save data into file '%1%'</original>
+      <translated>No se puede guardar los datos en el archivo '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Wrong password</original>
+      <translated>Contrasena incorrecta</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Password protection from budget information was removed!</original>
+      <translated>La contrasena de proteccion de la informacion de presupuesto fue removida!</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document has been successfully saved on server.</original>
+      <translated>El documento fue guardado en el servido con exito.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read file '%1%'</original>
+      <translated>No sepuede leer el archivo '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unsupported file format</original>
+      <translated>El formato del archivo no es soportado</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Resource name cannot be empty</original>
+      <translated>El nombre del recurso no puede estar vacio</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Hourly Rate cannot be negative</original>
+      <translated>Precio por hora no puede ser negativo</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Data in the tab has been changed. Do you want to save changes?</original>
+      <translated>Datos en la pestana han sido cambiados. Quieres guardar los cambios?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please provide the same string in both input fields</original>
+      <translated>Por favor da el mismo texto para ambos campos</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password should not be the same as the old one</original>
+      <translated>La nueva contrasena no deberia ser igual a la antigua</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Valid agile project type should be selected for the newly created project (it cannot be changed later).</original>
+      <translated>El tipo valido de un proyecto agil deberia ser seleccionado para el nuevo proyecto creado (Esto no puede ser cambiado despues).</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Hourly Rate cannot be greater than %1%</original>
+      <translated>Precio por hora no puede ser mas grande que %1%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Password length should not be less than %1% characters</original>
+      <translated>La longitud de la contrasena no deberia se menor que %1% caracteres</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% does not match format XXX.XX</original>
+      <translated>Sum Hecha %1% para %2% no corresponde con el formato XXX.XX</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% is negative</original>
+      <translated>Sum Hecha %1% para %2% es negativa</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% is greater than task estimation </original>
+      <translated>Sum hecha %1% para %2% es mayor que la estimacion de la tarea </translated>
+    </message>
+    <message context="MessageBox">
+      <original>To Do for %1% is empty</original>
+      <translated>Para hacer %1% esta vacio</translated>
+    </message>
+    <message context="MessageBox">
+      <original>To Do %1% for %2% does not match format XXX.XX</original>
+      <translated>Para hacer %1% para %2% no corresponde con el formato XXX.XX</translated>
+    </message>
+    <message context="MessageBox">
+      <original>To do %1% for %2% is negative</original>
+      <translated>Para hacer %1% para %2% es negativo</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Today %1% for %2% does not match format X or X/Y where X is done time and Y is todo time</original>
+      <translated>Hecho Hoy %1% para %2% no concuerda con el fromato X o X/Y donde X es un timpo hecho y Y es para hacer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Today %1% for %2% is negative</original>
+      <translated>Hecho Hoy %1% para %2% es negativo</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% is greater than Done Sum %3% for %4%.</original>
+      <translated>Sum hecha %1% para %2% es mas grande que la Sum hecha %3% para %4%.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Task %1%
+                Error: %2%</original>
+      <translated>Tarea %1%
+                  Error: %2%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You are going to decrement the ‘Last Reported Date’. All information for future dates will be lost!
+                Are you sure?</original>
+      <translated>Vas a decrementar la 'Ultima fecha de reporte'. Toda la informacion de fechas futuras se perdera!
+                  Estas seguro?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You are going to increment the ‘Last Reported Date’. All information for future dates will be copied from the last reported date!
+                Are you sure?</original>
+      <translated>Vas a incrementar la 'Ultima fecha de reporte'. Toda la informacion de fechas futuras sera copiada desde la ultima fecha de reporte!
+                  Estas seguro?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date '%1%' is included both in 'Work Dates' and 'Not Tracked Budget Dates'</original>
+      <translated>La fecha '%1%' esta incluida tanto en fechas de trabajo como en fechas de no seguimiento de presupuesto</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date removed from 'Work Days' has already assigned nonzero 'Done Time'.
+                Are you sure?</original>
+      <translated>La fecha borrada de 'Dias de Trabajo' Ya ha sido asignada con nonzero 'done time'.
+                  Estas seguro?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date %1% is already in list</original>
+      <translated>La fecha %1% ya esta en la lista</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date %1% is included into the list of Work Dates</original>
+      <translated>La fecha %1% esta incluida en la lista de fechas de trabajo</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete date '%1%' from schedule together with all resources and budget information?</original>
+      <translated>Realmente desea eliminar la fecha '%1%' del horario junto con toda la informacion de los recursos y presupuesto?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New resource name '%1%' is not unique</original>
+      <translated>Nuevo nombre del recurso '%1%' no es unico</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete resource '%1%' with all budget information?</original>
+      <translated>Realmente quiere eliminar el recurso '%1%' con toda la informacion de presupuesto?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Project name cannot be empty.</original>
+      <translated>El nombre del proyecto no puede estar vacio.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Project name cannot contain more than %1% characters.</original>
+      <translated>El nombre del Proyecto no puede tener mas de %1% caracteres.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Project tracking units should be selected.</original>
+      <translated>Las unidades de seguimiento del proyecto deben ser seleccionadas.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' is already added.</original>
+      <translated>El usuario '%1%' ya fue agregado.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Are you sure you want to remove user '%1%' from this project?</original>
+      <translated>Esta seguro que quiere eliminar el usuario '%1%' de este proyecto?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' is not registered on server.</original>
+      <translated>El usuario '%1%' no esta registrado en el servidor.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Error initializing network subsystem: %1%.</original>
+      <translated>Error al inicializar la red del subsistema: %1%.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document '%1%' was modified on server by user '%2%'.
+                Do you want to reload it?</original>
+      <translated>El documento '%1%' fue modificado en el servidor por el usuario '%2%'.
+                  Lo deseas recargar?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' has already modified this project on server. Your changes cannot be applied.
+                Would you like to reload the project?</original>
+      <translated>El Usuario '%1%' ya ha modificado estre proyecto en el servidor. Tus cambios no pueden ser aplicados.
+                  Te gustaria re-cargar el proyecto?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Story '%1%'
+                %2%</original>
+      <translated>Historia '%1%'
+                  %2%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Change Request Date should be between iteration start %1% and track date %2%.</original>
+      <translated>Cambiar la fecha del reques debe ser entre el inicio de la iteracion %1% y la fecha de verificacion %2%.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Change Request Date should be between sprint start %1% and track date %2%.</original>
+      <translated>Change Request Date should be between sprint start %1% and track date %2%.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name cannot be empty.</original>
+      <translated>El nombre de la iteracion no puede estar vacio.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name cannot be empty.</original>
+      <translated>El nombre del Sprint no puede estar vacio.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name cannot consist of whitespaces.</original>
+      <translated>El nombre de la iteracion no puede ser espacios en blanco.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name cannot consist of whitespaces.</original>
+      <translated>El nombre del Sprint no puede ser espacios en blanco.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name cannot contain more than %1% characters.</original>
+      <translated>El nombre de la iteracion no puede tener mas de %1% caracteres.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name cannot contain more than %1% characters.</original>
+      <translated>El nombre del sprint no puede tener mas de %1% caracteres.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name '%1%' is not unique.</original>
+      <translated>El nombre de la iteracion '%1%' no es unico.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name '%1%' is not unique.</original>
+      <translated>El nombre del Sprint '%1%' no es unico.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration start cannot be after iteration end.</original>
+      <translated>El comienzo de la iteracion no puede ser despues de el fin de la iteracion.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint start cannot be after sprint end.</original>
+      <translated>El comienzo de un sprint no puede ser despues de la fecha de finalizacion.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration cannot be longer than one year.</original>
+      <translated>La iteracion no puede ser mayor a un ano.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint cannot be longer than one year.</original>
+      <translated>El Sprint no puede ser mas grande a un ano.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration Track Date cannot be before iteration start.</original>
+      <translated>La fecha de seguimiento de la iteracion no puede ser antes del inicio de la iteracion.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration Track Date cannot be before iteration start.</original>
+      <translated>La fecha de seguimiento de la iteracion no puede ser antes del inicio de la iteracion.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration Track Date cannot be after iteration end.</original>
+      <translated>La fecha de segumiento de la iteracion no puede ser despues de el final de la iteracion</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint Track Date cannot be after sprint end.</original>
+      <translated>Fecha de seguimiento del Sprint no puede ser despues de la finalizacion del sprint.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete just created %1%?</original>
+      <translated>Realmente quieres eliminar el recien creado (%1%)?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete '%1%'</original>
+      <translated>Realmente quieres eliminar '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original> together with all information about child Stories and Tasks?</original>
+      <translated> juntos con toda la informacion acerca de child Historias y tareas ?</translated>
+    </message>
+    <message context="MessageBox">
+      <original> together with all information about child Tasks?</original>
+      <translated> juntos con toda la informacion acerca de child tareas?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>project</original>
+      <translated>proyecto</translated>
+    </message>
+    <message context="MessageBox">
+      <original>iteration</original>
+      <translated>iteracion</translated>
+    </message>
+    <message context="MessageBox">
+      <original>sprint</original>
+      <translated>sprint</translated>
+    </message>
+    <message context="MessageBox">
+      <original>story</original>
+      <translated>Historia</translated>
+    </message>
+    <message context="MessageBox">
+      <original>task</original>
+      <translated>tarea</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot connect to server.
+                %1%</original>
+      <translated>No se puede conectar al servidor.
+                  %1%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You are not logged on to a server.</original>
+      <translated>No estas logueado en un servidor.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User is not registered on server.</original>
+      <translated>Usuario no esta registrado en el servidor.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Incorrect password</original>
+      <translated>Contrasena incorrecta</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You do not have access to this project.</original>
+      <translated>No tienes acceso a este proyecto</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Number of licensed server users exceeded.</original>
+      <translated>El numero de usuarios que usan la licencia se ha exedido.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Server license has expired.</original>
+      <translated>La licencia del servidor ha expirado.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This project is a demo project. You cannot modify demo project on server.</original>
+      <translated>Este proyecto es un demo. No puedes modificarlos en el servidor</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User with this login already exists.</original>
+      <translated>El usuario con ese login ya existe.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Some of the users assigned to the project are not registered on this server.</original>
+      <translated>Algunos de los usuarios asignados a este proyecto no estan registrados en el servidor.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This server requres a different version of Sprintometer client.</original>
+      <translated>Este servidor requiere una version diferente del Cliente</translated>
+    </message>
+    <message context="MessageBox">
+      <original>File could not be created.</original>
+      <translated>El Archivo no puede ser creado.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unknown error.</original>
+      <translated>Error Desconocido.</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add &amp;Iteration</original>
+      <translated>Agregar &amp;Iteracion</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add S&amp;print</original>
+      <translated>Agregar S&amp;print</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add &amp;Story</original>
+      <translated>Agregar &amp;Historia</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add &amp;Task</original>
+      <translated>Agregar &amp;Tarea</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>&amp;Delete</original>
+      <translated>Eliminar</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Copy</original>
+      <translated>Copiar</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Paste</original>
+      <translated>Pegar</translated>
+    </message>
+    <message context="Common">
+      <original>Assigned 1</original>
+      <translated>Asignado 1</translated>
+    </message>
+    <message context="Common">
+      <original>Assigned 2</original>
+      <translated>Asignado 2</translated>
+    </message>
+    <message context="Common">
+      <original>Cancel</original>
+      <translated>Cancelar</translated>
+    </message>
+  </messages>
+</sprintometer>

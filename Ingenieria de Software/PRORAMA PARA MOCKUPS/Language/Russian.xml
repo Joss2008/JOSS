@@ -1,0 +1,1929 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprintometer>
+  <messages>
+    <message>
+       <original>Name</original>
+       <translated>Название</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Initial Estimation (%1%):</original>
+      <translated>Начальная оценка (%1%):</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>General</original>
+      <translated>Общие свойства</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Current Estimation (%1%):</original>
+      <translated>Текущая оценка (%1%):</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task No:</original>
+      <translated>№ задачи:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Name:</original>
+      <translated>Название:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Description:</original>
+      <translated>Описание:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Work Type</original>
+      <translated>Тип работы</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Change Request</original>
+      <translated>Запрос на изменение</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Issued:</original>
+      <translated>Дата:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Assigned to:</original>
+      <translated>Кто:</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task name cannot be empty.</original>
+      <translated>Название задачи не может быть пустым.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task name cannot consist of whitespaces.</original>
+      <translated>Название задачи не может содержать одни пробелы.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Task name cannot contain more than %1% characters.</original>
+      <translated>Название задачи не может содержать более %1% символов.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation %1% does not match format XXX.XX</original>
+      <translated>Оценка %1% не соответствует формату XXX.XX</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation '%1%' is not a valid float number.</original>
+      <translated>Оценка '%1%' не является корректным числом с десятичной точкой.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation cannot be negative.</original>
+      <translated>Оценка не может быть отрицательной.</translated>
+    </message>
+    <message context="TaskGeneral">
+      <original>Estimation cannot be greater than %1%.</original>
+      <translated>Оценка не может быть больше чем %1%.</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Date:</original>
+      <translated>Дата:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Work day:</original>
+      <translated>Рабочий день:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Done %:</original>
+      <translated>Сделано %:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Done/delta:</original>
+      <translated>Сделано/разница:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Done today/to do:</original>
+      <translated>Сделано сегодня/осталось:</translated>
+    </message>
+    <message context="TaskGrid">
+      <original>Closed:</original>
+      <translated>Закрыто:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID:</original>
+      <translated>№ истории:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Priority:</original>
+      <translated>Приоритет:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Name:</original>
+      <translated>Название:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Assign ALL coding:</original>
+      <translated>Кто кодирует:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Assign ALL testing:</original>
+      <translated>Кто тестирует:</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Description (RTF):</original>
+      <translated>Описание (RTF):</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>General</original>
+      <translated>Общие свойства</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID cannot be empty.</original>
+      <translated>№ истории не может быть пустым.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID cannot consist of whitespaces.</original>
+      <translated>№ истории не может состоять из одних пробелов.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID cannot exceed %1% characters.</original>
+      <translated>№ истории не может содержать более %1% символов.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story ID '%1%' is not unique.</original>
+      <translated>№ истории '%1%' не уникален.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story Name cannot be empty.</original>
+      <translated>Название истории не может быть пустым.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story name cannot consist of whitespaces.</original>
+      <translated>Название истории не может состоять из одних пробелов.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>Story Name cannot exceed %1% characters.</original>
+      <translated>Название истории не может содержать более %1% символов.</translated>
+    </message>
+    <message context="StoryGeneral">
+      <original>User Story priority '%1%' is not numeric.</original>
+      <translated>Приоритет истории '%1%' должен быть целым числом.</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Initial</original>
+      <translated>Начальная</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Current</original>
+      <translated>Текущая</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Done</original>
+      <translated>Сделано</translated>
+    </message>
+    <message context="StatusTable">
+      <original>To do</original>
+      <translated>Осталось</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Estimate</original>
+      <translated>Оценка</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Coding</original>
+      <translated>Кодирование</translated>
+    </message>
+    <message context="StatusTable">
+      <original>Testing</original>
+      <translated>Тестирование</translated>
+    </message>
+    <message context="StatusTable">
+      <original>All</original>
+      <translated>Все типы работ</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tasks</original>
+      <translated>Задачи</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Estimation\Date:</original>
+      <translated>Оценка\Дата:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Done  %:</original>
+      <translated>Сделано  %:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Coded  %:</original>
+      <translated>Кодировано  %:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tested  %:</original>
+      <translated>Тестировано  %:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Done/delta:</original>
+      <translated>Сделано/разница:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Done today/to do:</original>
+      <translated>Сделано сегодня/осталось:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Coded/delta:</original>
+      <translated>Кодировано/разница:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Coded today/to do:</original>
+      <translated>Кодировано сегодня/осталось:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tested/delta:</original>
+      <translated>Тестировано/разница:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Tested today/to do:</original>
+      <translated>Тестировано сегодня/осталось:</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Task#</original>
+      <translated>№ задачи</translated>
+    </message>
+    <message context="StoryGrid">
+      <original>Task Name</original>
+      <translated>Название задачи</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>General</original>
+      <translated>Общие свойства</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Name:</original>
+      <translated>Название:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Last Reported Date:</original>
+      <translated>Отчетная дата:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Start Date:</original>
+      <translated>Начало:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>End Date:</original>
+      <translated>Конец:</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>- Sprint Dates -</original>
+      <translated>- Дни спринта -</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>- No Work Dates -</original>
+      <translated>- Нерабочие дни -</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>- Budget Dates Out Of Sprint -</original>
+      <translated>- Дни бюджета вне спринта -</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Schedule</original>
+      <translated>Расписание</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Select Next Reported Date</original>
+      <translated>Следующая отчетная дата</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Add...</original>
+      <translated>Добавить...</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Delete</original>
+      <translated>Удалить</translated>
+    </message>
+    <message context="IterationGeneral">
+      <original>Stories</original>
+      <translated>Истории</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Estimation\Date:</original>
+      <translated>Оценка\Дата:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Done %:</original>
+      <translated>Сделано %:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Coded %:</original>
+      <translated>Кодировано %:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Tested %:</original>
+      <translated>Тестировано %:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Done:</original>
+      <translated>Сделано:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Done today/to do:</original>
+      <translated>Сделано сегодня/осталось:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Coded:</original>
+      <translated>Кодировано:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Coded today/to do:</original>
+      <translated>Кодировано сегодня/осталось:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Tested:</original>
+      <translated>Тестировано:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Tested today/to do:</original>
+      <translated>Тестировано сегодня/осталось:</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Story ID, Task#</original>
+      <translated>№ истории, № задачи</translated>
+    </message>
+    <message context="IterationGrid">
+      <original>Story Name, Task Name</original>
+      <translated>Название истории, задачи</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Track Chart</original>
+      <translated>График отклонения от плана</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Work Type:</original>
+      <translated>Тип работы:</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Print Chart</original>
+      <translated>Печать графика</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Iteration track upon work left/complete</original>
+      <translated>Ход итерации с учётом/без учёта изменений</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Sprint track upon work left/complete</original>
+      <translated>Ход спринта с учётом/без учёта изменений</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Work Days</original>
+      <translated>Рабочие дни</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Track upon work left</original>
+      <translated>Отклонение с учётом изменений</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Track upon work complete</original>
+      <translated>Отклонение без учёта изменений</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Instant Team Velocity</original>
+      <translated>Текущая скорость команды</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>95% extrapolation sector</original>
+      <translated>Прогноз с вероятностью 95%</translated>
+    </message>
+    <message context="IterationTrackChart">
+      <original>Work Type: </original>
+      <translated>Тип работы: </translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Work Type:</original>
+      <translated>Тип работы:</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Percentage</original>
+      <translated>Процент</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>3D Burn Down</original>
+      <translated>3D Диаграмма сгорания</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Print Chart</original>
+      <translated>Печать графика</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Scope Chart</original>
+      <translated>Диаграмма сгорания</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>left To Do (%1%)</original>
+      <translated>оставшаяся работа</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Work Days</original>
+      <translated>Рабочие дни</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Scope of changes</original>
+      <translated>Объём изменений</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Overall scope</original>
+      <translated>Суммарный объём</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>95% extrapolation sector</original>
+      <translated>Прогноз с вероятностью 95%</translated>
+    </message>
+    <message context="IterationScopeChart">
+      <original>Initial Estimation</original>
+      <translated>Начальная оценка</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Add Resource...</original>
+      <translated>Добавить ресурс...</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Delete Resource</original>
+      <translated>Удалить ресурс</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Resources &amp;&amp; Budget</original>
+      <translated>Ресурсы и бюджет</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Add Resource</original>
+      <translated>Добавить ресурс</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Name:</original>
+      <translated>Название:</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Type:</original>
+      <translated>Тип:</translated>
+    </message>
+    <message context="IterationResources">
+      <original>Hourly Rate:</original>
+      <translated>Стоимость часа:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Man Days value '%1%' for day %2% has a wrong format</original>
+      <translated>Значение человеко-дней '%1%' для дня %2% имеет неправильный формат</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Man Days value for day %1% is negative</original>
+      <translated>Значение человеко-дней для дня %1% отрицательное</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Man Days value for day %1% is greater than %2%</original>
+      <translated>Значение человеко-дней для дня %1% больше, чем %2%</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Resource: '%1%'</original>
+      <translated>Ресурс: '%1%'</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Error: %1%</original>
+      <translated>Ошибка: %1%</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Wrong format for Hourly Rate</original>
+      <translated>Неправильный формат стоимости часа</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Hourly Rate should not be greater than %1%</original>
+      <translated>Стоимость часа не должна быть больше %1%</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Date:</original>
+      <translated>Дата:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Work day:</original>
+      <translated>Рабочий день:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Sum Budget:</original>
+      <translated>Суммарный бюджет:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Hourly Rate\Daily Budget:</original>
+      <translated>Стоимость часа\Бюджет дня:</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Resource Name</original>
+      <translated>Имя ресурса</translated>
+    </message>
+    <message context="ResourceGrid">
+      <original>Resource Type</original>
+      <translated>Тип ресурса</translated>
+    </message>
+    <message context="IterationStoryReadiness">
+      <original>Story Readiness Report</original>
+      <translated>Отчет о готовности историй</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Story ID</original>
+      <translated>№ истории</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Story Name</original>
+      <translated>Название истории</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Coded</original>
+      <translated>Кодировано</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Tested</original>
+      <translated>Тестировано</translated>
+    </message>
+    <message context="StoryReadinessGrid">
+      <original>Done</original>
+      <translated>Сделано</translated>
+    </message>
+    <message context="IterationSummaryReport">
+      <original>Summary Report</original>
+      <translated>Общий отчёт</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Implementation</original>
+      <translated>Все виды работ</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Coding</original>
+      <translated>Кодирование</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Testing</original>
+      <translated>Тестирование</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Work days left:</original>
+      <translated>Осталось рабочих дней:</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Total done for now (%1%):</original>
+      <translated>Всего сделано на текущий момент (%1%):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Done during the last day (%1%):</original>
+      <translated>Cделано на последний день (%1%):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Overall done %:</original>
+      <translated>Всего сделано %:</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Scope to do daily to be on track (%1%):</original>
+      <translated>Сколько нужно делать ежедневно, чтобы всё успеть (%1%):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Average Load Factor (if resources with types defined):</original>
+      <translated>Средний КПД (требует определения ресурсов):</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Average Team Velocity:</original>
+      <translated>Средняя скорость работы команды:</translated>
+    </message>
+    <message context="SummaryGrid">
+      <original>Predicted deviation from deadline (days):</original>
+      <translated>Прогноз отклонения от даты окончания спринта (в днях):</translated>
+    </message>
+    <message context="IterationWorkloadReport">
+      <original>Workload Report</original>
+      <translated>Отчёт о загрузке</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Name</original>
+      <translated>Имя</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Assigned</original>
+      <translated>Назначено</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Done</original>
+      <translated>Сделано</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Average daily done</original>
+      <translated>Делалось в среднем за день</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Todo</original>
+      <translated>Осталось</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Average daily todo</original>
+      <translated>Нужно делать в среднем за день</translated>
+    </message>
+    <message context="WorkloadGrid">
+      <original>Done during last day</original>
+      <translated>Сделано за последний день</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Name:</original>
+      <translated>Название:</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Agile Project Type:</original>
+      <translated>Тип гибкой методологии:</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Estimation Units:</original>
+      <translated>Единицы оценки:</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Work Types</original>
+      <translated>Типы работ</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Add</original>
+      <translated>Добавить</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>Delete</original>
+      <translated>Удалить</translated>
+    </message>
+    <message context="ProjectGeneral">
+      <original>General</original>
+      <translated>Общие свойства</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type</original>
+      <translated>Тип работы</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Task assignable</original>
+      <translated>Назначаемый на задачу</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type cannot be empty</original>
+      <translated>Тип работы не может быть пустым</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type '%1%' is not unique</original>
+      <translated>Тип работы '%1%' не уникален</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type '%1%' cannot be unchecked as it is used in sprint '%2%', story '%3%', task '%4%'</original>
+      <translated>Тип работы '%1%' не может быть не выбран, так как он используется в спринте '%2%', истории '%3%', задаче '%4%'</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Work Type '%1%' is a predefined one and therefore cannot be deleted or modified</original>
+      <translated>Тип работы '%1%' предопределён и поэтому не может быть удалён или модифицирован</translated>
+    </message>
+    <message context="WorkTypeGrid">
+      <original>Cannot delete Work Type '%1%' as it is used in iteration '%2%', story '%3%', task '%4%'</original>
+      <translated>Тип работы '%1%' не может быть удалён, так как он используется в спринте '%2%', истории '%3%', задаче '%4%'</translated>
+    </message>
+    <message context="ProjectResources">
+      <original>Resources &amp;&amp; Budget</original>
+      <translated>Ресурсы и бюджет</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Iteration Name</original>
+      <translated>Название итерации</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Sprint Name</original>
+      <translated>Название спринта</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Start Date</original>
+      <translated>Начало</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>End Date</original>
+      <translated>Окончание</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Budget Days</original>
+      <translated>Бюджетных дней</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Man Days</original>
+      <translated>Человеко-дней</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Budget</original>
+      <translated>Бюджет</translated>
+    </message>
+    <message context="ProjectResourceGrid">
+      <original>Totals:</original>
+      <translated>Суммарно:</translated>
+    </message>
+    <message context="ProjectServerUsers">
+      <original>Server Project Users</original>
+      <translated>Пользователи проекта на сервере</translated>
+    </message>
+    <message context="ProjectServerUsers">
+      <original>Add User...</original>
+      <translated>Добавить пользователя...</translated>
+    </message>
+    <message context="ProjectServerUsers">
+      <original>Remove User</original>
+      <translated>Удалить пользователя</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;New</original>
+      <translated>Создать</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Create a new agile project</original>
+      <translated>Создать новый проект</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Open...</original>
+      <translated>Открыть...</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Open</original>
+      <translated>Открыть</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open an existing document</original>
+      <translated>Открыть существующий документ</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open &amp;From Server...</original>
+      <translated>Открыть на сервере...</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open &amp;From Server</original>
+      <translated>Открыть на сервере</translated>
+    </message>
+    <message context="ToolbarServer">
+      <original>Open</original>
+      <translated>Открыть</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Open document from Server</original>
+      <translated>Открыть существующий документ, хранящийся на Sprintometer сервере</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Close</original>
+      <translated>Закрыть</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Close the active document</original>
+      <translated>Закрыть активный проект</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Save</original>
+      <translated>Сохранить</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save the active document</original>
+      <translated>Сохранить активный проект</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save &amp;As...</original>
+      <translated>Сохранить как...</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save &amp;As</original>
+      <translated>Сохранить как</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save the active document into a local file with a new name</original>
+      <translated>Сохранить активный проект в локальный файл под новым именем</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save On S&amp;erver As...</original>
+      <translated>Сохранить на сервере как...</translated>
+    </message>
+    <message context="ToolbarServer">
+      <original>Save As</original>
+      <translated>Сохранить как</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Save project on Sprintometer Server with a new name</original>
+      <translated>Сохранить активный проект на Sprintometer сервере под новым именем</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Recent Documents</original>
+      <translated>Недавние документы</translated>
+    </message>
+    <message context="Toolbar">
+      <original>E&amp;xit</original>
+      <translated>Выход</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Quit the application; prompts to save documents</original>
+      <translated>Выйти из приложения; будет предложено сохранить изменённые проекты</translated>
+    </message>
+    <message context="Toolbar">
+      <original>&amp;Home</original>
+      <translated>База</translated>
+    </message>
+    <message context="Toolbar">
+      <original>General</original>
+      <translated>Общее</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Go to Upper Node</original>
+      <translated>На уровень выше</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Select upper node in left pane tree</original>
+      <translated>Перейти на уровень выше в дереве в левой части экрана</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Undo</original>
+      <translated>Отменить</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Undo the latest edition</original>
+      <translated>Отменить последнее редактирование</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Redo</original>
+      <translated>Не отменять</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Redo the latest edition</original>
+      <translated>Применить последнее отменённое редактирование</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Export</original>
+      <translated>Экспорт</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Export to Microsoft Excel grid or chart in the right pane</original>
+      <translated>Экспортировать в Microsoft Excel таблицу или график из правой части экрана</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Export grid or chart to OpenDocument Spreadsheet</original>
+      <translated>Экспортировать таблицу или график в формат OpenDocument Spreadsheet</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Print App Window</original>
+      <translated>Печать экрана</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Print current content of application window</original>
+      <translated>Вывести на печать текущее содержимое окна приложения</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Local File</original>
+      <translated>Локальный файл</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Remote Server</original>
+      <translated>Удаленный сервер</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Settings &amp;&amp; Registration</original>
+      <translated>Настройки и Регистрация</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Sprintometer Server settings and registration of new users</original>
+      <translated>Настройки Sprintometer сервера и регистрация новых пользователей</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Budget Info</original>
+      <translated>Бюджет</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Set Password</original>
+      <translated>Задать пароль</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Set password for 'Resources &amp; Budget' tab</original>
+      <translated>Защитить поролем доступ к закладке 'Ресурсы и бюджет'</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Remove Password</original>
+      <translated>Удалить пароль</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Remove password for 'Resources &amp; Budget' tab</original>
+      <translated>Отменить доступ по поролю к закладке 'Ресурсы и бюджет'</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Work Type:</original>
+      <translated>Тип работы:</translated>
+    </message>
+    <message context="Toolbar">
+      <original>In 'Tasks' and 'Stories' tabs filter data by the selected work type</original>
+      <translated>На закладках 'Задачи' и 'Истории' фильтровать данные по выбранному типу работы</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Work Status:</original>
+      <translated>Статус работы:</translated>
+    </message>
+    <message context="Toolbar">
+      <original>In 'Tasks' and 'Stories' tabs filter data by the selected work status</original>
+      <translated>На закладках 'Задачи' и 'Истории' фильтровать данные по выбранному статусу работы</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Spreadsheet Filters</original>
+      <translated>Фильтры таблиц</translated>
+    </message>
+    <message context="Toolbar">
+      <original>View</original>
+      <translated>Вид</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Language:</original>
+      <translated>Язык:</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Languages are defined in '*.XML' files. Clone XML file and translate GUI to a new language!</original>
+      <translated>Языки определены в '*.XML' файлах. Клонируйте XML файл и переведите GUI на новый язык!</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Window</original>
+      <translated>Окно</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Placement</original>
+      <translated>Размещение</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Cascade</original>
+      <translated>Каскад</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Arrange windows so they overlap</original>
+      <translated>Расположить окна так, чтобы они накладывались одно на другое</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Tile</original>
+      <translated>Плитка</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Arrange windows as non-overlapping tiles</original>
+      <translated>Расположить окна так, чтобы они не накладывались и располагались вплотную</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Split</original>
+      <translated>Разделение</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Switch on split mode to adjust windows positions</original>
+      <translated>Включить режим разделения для установки границ между окнами</translated>
+    </message>
+    <message context="Toolbar">
+      <original>Show Last Day only</original>
+      <translated>Только последний день</translated>
+    </message>
+    <message context="Toolbar">
+      <original>In all spreadsheets show column for the last reported day only</original>
+      <translated>Во всех редактируемых таблицах показывать данные только за последний день</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>About Sprintometer Pro</original>
+      <translated>О программе Sprintometer Pro</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>About Sprintometer</original>
+      <translated>О программе Sprintometer</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>Check for updates automatically</original>
+      <translated>Автоматически проверять обновления</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>Download the latest version</original>
+      <translated>Скачать последнюю версию</translated>
+    </message>
+    <message context="AboutDialog">
+      <original>Question or Note</original>
+      <translated>Вопрос или пожелание</translated>
+    </message>
+    <message context="AddDateDialog">
+      <original>Add Not Tracked Budget Date</original>
+      <translated>Добавить дни бюджета вне спринта</translated>
+    </message>
+    <message context="NewVersionDialog">
+      <original>New Version Available</original>
+      <translated>Новая версия доступна</translated>
+    </message>
+    <message context="NewVersionDialog">
+      <original>New version of Sprintometer is available for download!</original>
+      <translated>Новая версия Sprintometer доступна для скачивания!</translated>
+    </message>
+    <message context="NewVersionDialog">
+      <original>You can download the latest version from the product home page:</original>
+      <translated>Вы можете скачать последнюю версию с домашней страницы продукта:</translated>
+    </message>
+    <message context="OpenFromServerDialog">
+      <original>Open Document From Server</original>
+      <translated>Открыть документ на сервере</translated>
+    </message>
+    <message context="OpenFromServerDialog">
+      <original>Available documents:</original>
+      <translated>Доступные документы:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Server Configuration</original>
+      <translated>Конфигурация сервера</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Security</original>
+      <translated>Авторизация</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Connection</original>
+      <translated>Соединение</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Please enter your login and password for Sprintometer server.</original>
+      <translated>Пожалуйста, введите ваш логин и пароль для Sprintometer сервера.</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Login:</original>
+      <translated>Логин:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Password:</original>
+      <translated>Пароль:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Remember login and password on this PC</original>
+      <translated>Запомнить логин и пароль на данном компьютере</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>If you do not have a login and password for Sprintometer server, you may register as a new user.</original>
+      <translated>Если у Вас нет логина и пароля, Вы можете зарегистрироваться, как новый пользователь.</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Register New User...</original>
+      <translated>Зарегистрироваться...</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Change User Password...</original>
+      <translated>Поменять пароль...</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Sprintometer Server URL:</original>
+      <translated>Sprintometer сервер URL:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Use Proxy Server</original>
+      <translated>Использовать прокси сервер</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Proxy Type:</original>
+      <translated>Тип прокси:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Proxy Address:</original>
+      <translated>Адрес прокси:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Default</original>
+      <translated>По умолчанию</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Port:</original>
+      <translated>Порт:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Proxy Requires Authorization</original>
+      <translated>Прокси требует авторизацию</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Login:</original>
+      <translated>Логин:</translated>
+    </message>
+    <message context="ServerOptionsDialog">
+      <original>Password:</original>
+      <translated>Пароль:</translated>
+    </message>
+    <message context="PasswordDialog">
+      <original>Password Check</original>
+      <translated>Проверка пароля</translated>
+    </message>
+    <message context="PasswordDialog">
+      <original>Password:</original>
+      <translated>Пароль:</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>Project Type</original>
+      <translated>Тип проекта</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>Please select Type for new agile project</original>
+      <translated>Пожалуйста, выберете тип нового проекта</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>PROJECT TYPE CANNOT BE CHANGED AFTER PROJECT CREATION</original>
+      <translated>ТИП ПРОЕКТА НЕ МОЖЕТ БЫТЬ ИЗМЕНЕН ПОСЛЕ ЕГО СОЗДАНИЯ</translated>
+    </message>
+    <message context="ProjectTypeDialog">
+      <original>Agile Project Type:</original>
+      <translated>Тип проекта:</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Register New Server User</original>
+      <translated>Регистрация нового пользователя на сервере</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Login:</original>
+      <translated>Логин:</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Name (optional):</original>
+      <translated>Имя (опционально):</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Email:</original>
+      <translated>Email:</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>NOTE: Password for accessing Sprintometer server will be emailed to this address. Please make sure you enter a valid email address.</original>
+      <translated>ВНИМАНИЕ: Пароль для доступа к Sprintometer серверу будет выслан на электронный адрес. Пожалуйста, убедитесь, что он правильный.</translated>
+    </message>
+    <message context="RegisterNewUserDialog">
+      <original>Register</original>
+      <translated>Зарегистрировать</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>Rename Server Document</original>
+      <translated>Переименовать документ на сервере</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>You are going to change document name on server. This will change the name by which the document is listed in 'Open Document From Server' dialog. To change project name inside the document, use General tab on Project level.</original>
+      <translated>Вы собираетесь изменить имя документа на сервере. Это изменит имя в списке диалога 'Открыть документ на сервере'. Для изменения имени проекта используйте закладку 'Общие свойства' на уровне проекта.</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>Old document name:</original>
+      <translated>Старое имя документа:</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>New document name:</original>
+      <translated>Новое имя документа:</translated>
+    </message>
+    <message context="RenameServerDocumentDialog">
+      <original>Rename</original>
+      <translated>Переименовать</translated>
+    </message>
+    <message context="ServerSaveNewDialog">
+      <original>Save Project As On Server</original>
+      <translated>Сохранить проект на сервере</translated>
+    </message>
+    <message context="ServerSaveNewDialog">
+      <original>Document name on server:</original>
+      <translated>Имя документа на сервере:</translated>
+    </message>
+    <message context="ServerUserAddDialog">
+      <original>Add Server User</original>
+      <translated>Добавить серверного пользователя</translated>
+    </message>
+    <message context="ServerUserAddDialog">
+      <original>User Login:</original>
+      <translated>Логин пользователя:</translated>
+    </message>
+    <message context="SetPasswordDialog">
+      <original>Set Password</original>
+      <translated>Установка пароля</translated>
+    </message>
+    <message context="SetPasswordDialog">
+      <original>Type Password:</original>
+      <translated>Введите пароль:</translated>
+    </message>
+    <message context="SetPasswordDialog">
+      <original>Repeat Password:</original>
+      <translated>Повторите пароль:</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>Change Password</original>
+      <translated>Изменение пароля</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>Old Password:</original>
+      <translated>Старый пароль:</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>New Password:</original>
+      <translated>Новый пароль:</translated>
+    </message>
+    <message context="ChangePasswordDialog">
+      <original>Repeat Password:</original>
+      <translated>Повторить пароль:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Change Server User Password</original>
+      <translated>Изменить пароль пользователя сервера</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Login:</original>
+      <translated>Логин:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Old password:</original>
+      <translated>Старый пароль:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>New password:</original>
+      <translated>Новый пароль:</translated>
+    </message>
+    <message context="ChangeServerPasswordDialog">
+      <original>Re-enter new password:</original>
+      <translated>Повторить новый пароль:</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Excel Export</original>
+      <translated>Экспорт в Excel</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>ODS Export</original>
+      <translated>Экспорт в ODS</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Please do not use Excel application while export is in progress.</original>
+      <translated>Пожалуйста, не используйте Excel в процессе экспорта.</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Please wait while OpenDocument Spreadsheet is being created.</original>
+      <translated>Пожалуйста, подождите. Создается таблица OpenDocument.</translated>
+    </message>
+    <message context="ExcelExportDialog">
+      <original>Export progress:</original>
+      <translated>Прогресс экспорта:</translated>
+    </message>
+    <message context="Common">
+      <original>Ideal Hours</original>
+      <translated>Идеальные часы</translated>
+    </message>
+    <message context="Common">
+      <original>id.h.</original>
+      <translated>ид.час</translated>
+    </message>
+    <message context="Common">
+      <original>Normal Hours</original>
+      <translated>Обычные часы</translated>
+    </message>
+    <message context="Common">
+      <original>hours</original>
+      <translated>часы</translated>
+    </message>
+    <message context="Common">
+      <original>Func. Points</original>
+      <translated>Func. Points</translated>
+    </message>
+    <message context="Common">
+      <original>func.p.</original>
+      <translated>func.p.</translated>
+    </message>
+    <message context="Common">
+      <original>Days</original>
+      <translated>Дни</translated>
+    </message>
+    <message context="Common">
+      <original>days</original>
+      <translated>дни</translated>
+    </message>
+    <message context="Common">
+      <original>Units</original>
+      <translated>Единицы</translated>
+    </message>
+    <message context="Common">
+      <original>units</original>
+      <translated>ед.</translated>
+    </message>
+    <message context="Common">
+      <original>Story Points</original>
+      <translated>Story Points</translated>
+    </message>
+    <message context="Common">
+      <original>st.p.</original>
+      <translated>st.p.</translated>
+    </message>
+    <message context="Common">
+      <original>----ALL----</original>
+      <translated>----ВСЕ----</translated>
+    </message>
+    <message context="Common">
+      <original>To Do</original>
+      <translated>Не сделано</translated>
+    </message>
+    <message context="Common">
+      <original>Done</original>
+      <translated>Cделано</translated>
+    </message>
+    <message context="Common">
+      <original>Management</original>
+      <translated>Менеджмент</translated>
+    </message>
+    <message context="Common">
+      <original>Testing</original>
+      <translated>Тестирование</translated>
+    </message>
+    <message context="Common">
+      <original>Coding</original>
+      <translated>Кодирование</translated>
+    </message>
+    <message context="Common">
+      <original>Last Day only</original>
+      <translated>Только последний день</translated>
+    </message>
+    <message context="Common">
+      <original>Stories</original>
+      <translated>Истории</translated>
+    </message>
+    <message context="Common">
+      <original>Work Type: </original>
+      <translated>Тип работы: </translated>
+    </message>
+    <message context="Common">
+      <original>Work Type: </original>
+      <translated>Тип работы: </translated>
+    </message>
+    <message context="Common">
+      <original>Work Status: </original>
+      <translated>Статус работы: </translated>
+    </message>
+    <message context="Common">
+      <original>Tasks</original>
+      <translated>Задачи</translated>
+    </message>
+    <message context="Common">
+      <original>Undo</original>
+      <translated>Отменить</translated>
+    </message>
+    <message context="Common">
+      <original>Unchanged</original>
+      <translated>Не изменено</translated>
+    </message>
+    <message context="Common">
+      <original>Apply</original>
+      <translated>Применить</translated>
+    </message>
+    <message context="Common">
+      <original>Validation!</original>
+      <translated>Коррекция!</translated>
+    </message>
+    <message context="MessageBox">
+      <original>No graph type to display</original>
+      <translated>Нет типа графика для показа</translated>
+    </message>
+    <message context="MessageBox">
+      <original>No graph type to print</original>
+      <translated>Нет типа графика для печати</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot find default printer</original>
+      <translated>Не найден принтер по умолчанию</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Default printer cannot support raster operations</original>
+      <translated>Принтер по умолчанию не поддерживает растровые операции</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot get device context for window to be printed</original>
+      <translated>Не удается получить контекст устройства для окна, выводимого на печать</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot create compatible bitmap for window to be printed</original>
+      <translated>Не удается создать совместимый битмэп для окна, выводимого на печать</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter user login.</original>
+      <translated>Пожалуйста, введите логин пользователя.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter the old (current) password.</original>
+      <translated>Пожалуйста, введите старый (текущий) пароль.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter the new password.</original>
+      <translated>Пожалуйста, введите новый пароль.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please re-enter the new password.</original>
+      <translated>Пожалуйста, повторите новый пароль.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password should not be equal to old password.</original>
+      <translated>Новый пароль должен отличаться от старого.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New passwords do not match.</original>
+      <translated>Новые пароли не одинаковы.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password must contain at least 6 characters.</original>
+      <translated>Новый пароль должен содержать, как минимум, 6 символов.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password should not be equal to login name.</original>
+      <translated>Новый пароль не должен совпадать с логином.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User password has been changed successfully.</original>
+      <translated>Пароль пользователя успешно изменён.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>'Last Reported Date' in 'General' tab does not match today's date.
+                Probably you forgot to increment it before time reporting.</original>
+      <translated>'Отчётная дата' на закладке 'Общие свойства' не совпадает с сегодняшним днем.
+                  Возможно, Вы забыли увеличить её перед отчётом о работе.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot overwrite destination file (probably the file is read-only).</original>
+      <translated>Не удаётся переписать файл (возможно, файл доступен только по чтению).</translated>
+    </message>
+    <message context="MessageBox">
+      <original>File has been saved successfully. Do you want to open it now?</original>
+      <translated>Файл был успешно сохранён. Открыть его сейчас?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>OLE initialization failed. Make sure that the OLE libraries are the correct version</original>
+      <translated>Инициализация OLE не удалась. Убедитесь, что OLE библиотеки имеют правильную версию.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unable to save grid list</original>
+      <translated>Невозможно сохранить список таблицы</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unable to load grid data</original>
+      <translated>Невозможно загрузить данные таблицы</translated>
+    </message>
+    <message context="MessageBox">
+      <original>To be applied language change requires restart of Sprintometer application!</original>
+      <translated>Для активации нового языка требуется перезапустить Sprintometer!</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please select a document to open.</original>
+      <translated>Пожалуйста, выберете документ, который нужно открыть.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Are you sure you want to delete document '%1%' on server?</original>
+      <translated>Вы уверены, что хотите удалить документ '%1%' на сервере?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document '%1%' has been deleted.</original>
+      <translated>Документ '%1%' был удалён.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Server document renamed successfully.</original>
+      <translated>Документ на сервере успешно переименован.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please select a user you want to remove.</original>
+      <translated>Пожалуйста, выберете пользователя, которого хотите удалить.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter login for new user.</original>
+      <translated>Пожалуйста, введите логин для нового пользователя.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter email address.</original>
+      <translated>Пожалуйста, введите электронный адрес</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Are you sure email address is valid?
+                User password will be sent to this address.</original>
+      <translated>Вы уверены, что электронный адрес правильный?
+                  Пароль пользователя будет послан на этот адрес.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' has been registered on Sprintometer server.
+                User password has been emailed to '%2%'.</original>
+      <translated>Пользователь '%1%' успешно зарегистрирован на Sprintometer сервере.
+                  Пароль пользователя выслан на электронный адрес '%2%'.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter document name.</original>
+      <translated>Пожалуйста, введите имя документа.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document with this name already exists. Please enter new name.</original>
+      <translated>Документ с данным именем уже существует. Пожалуйста, введите другое имя.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please enter document name.</original>
+      <translated>Пожалуйста, введите имя документа.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You can't start more than one copy of Sprintometer application.</original>
+      <translated>Вы не можете запустить более одного Sprintometer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read application options file</original>
+      <translated>Невозможно прочитать файл с настройками приложения</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read data from server</original>
+      <translated>Невозможно прочитать данные с сервера</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Invalid Sprintometer file</original>
+      <translated>Некорректный файл для Sprintometer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This data file needs a newer version of Sprintometer</original>
+      <translated>Данный файл требует более новой версии Sprintometer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Error reading XML data file</original>
+      <translated>Ошибка при чтении XML файла с данными</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read data from file</original>
+      <translated>Невозможно прочесть данные из файла</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot open file '%1%'</original>
+      <translated>Невозможно открыть файл '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This project is currently stored using Sprintometer 1.0 format.
+                It is recommended to convert this project to Sprintometer 2.0 format.
+                After this conversion all users working with this project will have to use Sprintometer 2.0 or later.
+                Do you want to convert the project to Sprintometer 2.0 format?</original>
+      <translated>Этот проект сейчас храниться в формате Sprintometer 1.0.
+                  Рекомендуется конвертировать проект в формат Sprintometer 2.0.
+                  После конвертации все пользователи данного проекта должны будут использовать Sprintometer 2.0 или более позднюю версию.
+                  Хотите ли вы конвертировать проект в формат Sprintometer 2.0?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Error saving document.</original>
+      <translated>Ошибка при сохранении документа.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot save data into file '%1%'</original>
+      <translated>Невозможно записать данные в файл '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Wrong password</original>
+      <translated>Неправильный пароль</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Password protection from budget information was removed!</original>
+      <translated>Пароль для защиты информации о бюджете был удалён!</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document has been successfully saved on server.</original>
+      <translated>Документ был успешно сохранён на сервере.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot read file '%1%'</original>
+      <translated>Невозможно прочитать файл '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unsupported file format</original>
+      <translated>Неподдерживаемый формат файла</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Resource name cannot be empty</original>
+      <translated>Имя ресурса не может быть пустым</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Hourly Rate cannot be negative</original>
+      <translated>Стоимость часа не может быть отрицательной</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Data in the tab has been changed. Do you want to save changes?</original>
+      <translated>Данные на закладке были изменены. Хотите ли Вы сохранить изменения?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Please provide the same string in both input fields</original>
+      <translated>Пожалуйста, введите одинаковую строку в обоих полях ввода</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New password should not be the same as the old one</original>
+      <translated>Новый пароль должен отличаться от старого</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Valid agile project type should be selected for the newly created project (it cannot be changed later).</original>
+      <translated>Для нового проекта правильный тип должен быть выбран (он не может быть изменён позже).</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Hourly Rate cannot be greater than %1%</original>
+      <translated>Стоимость часа не может быть больше %1%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Password length should not be less than %1% characters</original>
+      <translated>Длина пароля не может быть меньше %1% символов</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% does not match format XXX.XX</original>
+      <translated>Суммарно сделанная работа %1% для %2% не соответствует формату XXX.XX</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% is negative</original>
+      <translated>Суммарно сделанная работа %1% для %2% не может быть отрицательной</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% is greater than task estimation </original>
+      <translated>Суммарно сделанная работа %1% для %2% больше, чем оценка задачи </translated>
+    </message>
+    <message context="MessageBox">
+      <original>To Do for %1% is empty</original>
+      <translated>Значение оставшейся работы для %1% пустое</translated>
+    </message>
+    <message context="MessageBox">
+      <original>To Do %1% for %2% does not match format XXX.XX</original>
+      <translated>Значение оставшейся работы %1% для %2% не соответствует формату XXX.XX</translated>
+    </message>
+    <message context="MessageBox">
+      <original>To do %1% for %2% is negative</original>
+      <translated>Значение оставшейся работы %1% для %2% отрицательное</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Today %1% for %2% does not match format X or X/Y where X is done time and Y is todo time</original>
+      <translated>Сделанное сегодня %1% для %2% не соответствует форматам X или X/Y, где X-сколько сделано за день, Y-сколько осталось сделать</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Today %1% for %2% is negative</original>
+      <translated>Сделанное сегодня %1% для %2% отрицательное</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Done Sum %1% for %2% is greater than Done Sum %3% for %4%.</original>
+      <translated>Суммарно сделанная работа %1% для %2% больше, чем суммарно сделанная работа %3% для %4%.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Task %1%
+                Error: %2%</original>
+      <translated>Задача %1%
+                  Ошибка: %2%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You are going to decrement the ‘Last Reported Date’. All information for future dates will be lost!
+                Are you sure?</original>
+      <translated>Вы собираетесь уменьшить отчётную дату. Вся информация по закрытию задач на последующие даты будет потеряна!
+                  Вы уверены?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You are going to increment the ‘Last Reported Date’. All information for future dates will be copied from the last reported date!
+                Are you sure?</original>
+      <translated>Вы собираетесь увеличить отчётную дату. Вся информация для добавленных дат будет скопирована из последнего отчётного дня!
+                  Вы уверены?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date '%1%' is included both in 'Work Dates' and 'Not Tracked Budget Dates'</original>
+      <translated>Дата '%1%' включена как в 'Дни спринта', так и в 'Дни бюджета вне спринта'</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date removed from 'Work Days' has already assigned nonzero 'Done Time'.
+                Are you sure?</original>
+      <translated>Дата, удалённая из 'Дней спринта' уже содержит информацию о закрытых задачах.
+                  Вы уверены?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date %1% is already in list</original>
+      <translated>Дата %1% уже в списке</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Date %1% is included into the list of Work Dates</original>
+      <translated>Дата %1% включена в список дней спринта</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete date '%1%' from schedule together with all resources and budget information?</original>
+      <translated>Вы действительно хотите удалить дату '%1%' из расписания вместе со всей информацией по ресурсам и бюджету?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>New resource name '%1%' is not unique</original>
+      <translated>Имя нового ресурса '%1%' не уникально</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete resource '%1%' with all budget information?</original>
+      <translated>Вы действительно хотите удалить ресурс '%1%' со всей информацией по бюджету?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Project name cannot be empty.</original>
+      <translated>Название проекта не может быть пустым.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Project name cannot contain more than %1% characters.</original>
+      <translated>Название проекта не может содержать больше %1% символов.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Project tracking units should be selected.</original>
+      <translated>Единицы оценки проекта должны быть выбраны.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' is already added.</original>
+      <translated>Пользователь '%1%' уже существует.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Are you sure you want to remove user '%1%' from this project?</original>
+      <translated>Вы действительно хотите удалить пользователя '%1%' из проекта?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' is not registered on server.</original>
+      <translated>Пользователь '%1%' не зарегистрирован на сервере.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Error initializing network subsystem: %1%.</original>
+      <translated>Ошибка при инициализации сетевой подсистемы: %1%.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Document '%1%' was modified on server by user '%2%'.
+                Do you want to reload it?</original>
+      <translated>Документ '%1%' был модифицирован на сервере пользователем '%2%'.
+                  Хотите ли Вы загрузить обновлённый документ?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User '%1%' has already modified this project on server. Your changes cannot be applied.
+                Would you like to reload the project?</original>
+      <translated>Пользователь '%1%' уже изменил документ на сервере. Выши изменения не могут быть применены.
+                  Хотите ли Вы загрузить обновлённый документ?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Story '%1%'
+                %2%</original>
+      <translated>История '%1%'
+                  %2%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Change Request Date should be between iteration start %1% and track date %2%.</original>
+      <translated>Дата запроса на изменение должна быть между стартом итерации и её окончанием.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Change Request Date should be between sprint start %1% and track date %2%.</original>
+      <translated>Дата запроса на изменение должна быть между стартом спринта и его окончанием.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name cannot be empty.</original>
+      <translated>Название итерации не может быть пустым.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name cannot be empty.</original>
+      <translated>Название спринта не может быть пустым.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name cannot consist of whitespaces.</original>
+      <translated>Название итерации не может состоять из одних пробелов.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name cannot consist of whitespaces.</original>
+      <translated>Название спринта не может состоять из одних пробелов.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name cannot contain more than %1% characters.</original>
+      <translated>Название итерации не может состоять из более чем %1% символов.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name cannot contain more than %1% characters.</original>
+      <translated>Название спринта не может состоять из более чем %1% символов.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration name '%1%' is not unique.</original>
+      <translated>Название итерации '%1%' не уникально.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint name '%1%' is not unique.</original>
+      <translated>Название спринта '%1%' не уникально.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration start cannot be after iteration end.</original>
+      <translated>Итерация не может начинаться после её окончания.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint start cannot be after sprint end.</original>
+      <translated>Спринт не может начинаться после его окончания.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration cannot be longer than one year.</original>
+      <translated>Итерация не может быть длиннее одного года.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint cannot be longer than one year.</original>
+      <translated>Спринт не может быть длиннее одного года.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration Track Date cannot be before iteration start.</original>
+      <translated>Отчётная дата итерации не может быть раньше её начала.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration Track Date cannot be before iteration start.</original>
+      <translated>Отчётная дата спринта не может быть раньше её начала.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Iteration Track Date cannot be after iteration end.</original>
+      <translated>Отчётная дата итерации не может быть после её окончания.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Sprint Track Date cannot be after sprint end.</original>
+      <translated>Отчётная дата спринта не может быть после её окончания.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete just created %1%?</original>
+      <translated>Вы действительно хотите удалить только что созданный узел (%1%)?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Do you really want to delete '%1%'</original>
+      <translated>Вы действительно хотите удалить '%1%'</translated>
+    </message>
+    <message context="MessageBox">
+      <original> together with all information about child Stories and Tasks?</original>
+      <translated> вместе со всей информацией об историях и задачах?</translated>
+    </message>
+    <message context="MessageBox">
+      <original> together with all information about child Tasks?</original>
+      <translated> вместе со всей информацией о задачах?</translated>
+    </message>
+    <message context="MessageBox">
+      <original>project</original>
+      <translated>проект</translated>
+    </message>
+    <message context="MessageBox">
+      <original>iteration</original>
+      <translated>итерация</translated>
+    </message>
+    <message context="MessageBox">
+      <original>sprint</original>
+      <translated>спринт</translated>
+    </message>
+    <message context="MessageBox">
+      <original>story</original>
+      <translated>история</translated>
+    </message>
+    <message context="MessageBox">
+      <original>task</original>
+      <translated>задача</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Cannot connect to server.
+                %1%</original>
+      <translated>Невозможно соединение с сервером.
+                  %1%</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You are not logged on to a server.</original>
+      <translated>Вы не залогинились на сервер.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User is not registered on server.</original>
+      <translated>Пользователь не зарегистрирован на сервере.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Incorrect password</original>
+      <translated>Неправильный пароль</translated>
+    </message>
+    <message context="MessageBox">
+      <original>You do not have access to this project.</original>
+      <translated>У Вас нет доступа к этому проекту.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Number of licensed server users exceeded.</original>
+      <translated>Число пользовательских лицензий превышено.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Server license has expired.</original>
+      <translated>Срок действия лицензии на сервер закончился.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This project is a demo project. You cannot modify demo project on server.</original>
+      <translated>Данный проект является демонстрационным. Вы не можете изменять демонстрационный проект на сервере.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>User with this login already exists.</original>
+      <translated>Пользователь с данным логином уже существует.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Some of the users assigned to the project are not registered on this server.</original>
+      <translated>Некоторые пользователи, назначенные на проект, не зарегистрированы на сервере.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>This server requres a different version of Sprintometer client.</original>
+      <translated>Данный сервер требует другой версии клиента Sprintometer</translated>
+    </message>
+    <message context="MessageBox">
+      <original>File could not be created.</original>
+      <translated>Создать файл невозможно.</translated>
+    </message>
+    <message context="MessageBox">
+      <original>Unknown error.</original>
+      <translated>Неизвестная ошибка.</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add &amp;Iteration</original>
+      <translated>Добавить Итерацию</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add S&amp;print</original>
+      <translated>Добавить спринт</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add &amp;Story</original>
+      <translated>Добавить историю</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Add &amp;Task</original>
+      <translated>Добавить задачу</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>&amp;Delete</original>
+      <translated>Удалить</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Copy</original>
+      <translated>Копировать</translated>
+    </message>
+    <message context="PopupMenu">
+      <original>Paste</original>
+      <translated>Вставить</translated>
+    </message>
+    <message context="Common">
+      <original>Assigned 1</original>
+      <translated>Кто 1</translated>
+    </message>
+    <message context="Common">
+      <original>Assigned 2</original>
+      <translated>Кто 2</translated>
+    </message>
+    <message context="Common">
+      <original>Cancel</original>
+      <translated>Отмена</translated>
+    </message>
+  </messages>
+</sprintometer>
